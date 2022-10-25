@@ -1,3 +1,3 @@
-const catalogo = require('./users.json')
+const usuarios = require('./users.json')
 
-console.log(catalogo)
+console.log(usuarios.filter((idade) => idade.idade >= 18))
